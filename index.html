@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Simple Buttons</title>
+
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+	body {
+		font-family: 'Roboto', sans-serif;
+		background-color: #f8f8f8;
+		margin:0;
+		padding:0;
+	}
+
+	/* General Button CSS*/
+	.btn{
+		min-width: 100px;
+		min-height: 30px;
+		border:0;
+		outline: 0;
+		padding:10px;
+		margin:10px;
+		border-radius: 5px;
+		cursor: pointer;
+		opacity: 0.9;
+		color:#fff;
+	}
+	.btn:hover{
+		opacity: 1;
+		transition: all ease 0.5s;
+	}
+
+	/*Blue Button*/
+	.outline-blue{
+		background-color: #fff;
+		color:#2962FF;
+		border:1px solid #2962FF;
+	}
+	.outline-blue:hover{
+		background-color: #2962FF;
+		color:#fff;
+		border:1px solid #2962FF;
+	}
+
+	/*Green Button*/
+	.outline-green{
+		background-color: #fff;
+		color: #388E3C;
+		border:1px solid #388E3C;
+	}
+	.outline-green:hover{
+		background-color: #388E3C;
+		color: #fff;
+		border:1px solid #388E3C;
+	}
+
+	/*Red Button*/
+	.outline-red{
+		background-color: #fff;
+		color: #D32F2F;
+		border:1px solid #D32F2F;
+	}
+	.outline-red:hover{
+		background-color: #D32F2F;
+		color: #fff;
+		border:1px solid #D32F2F;
+	}
+
+	/*Grey Button*/
+	.outline-grey{
+		background-color: #fff;
+		color: #546E7A;
+		border:1px solid #546E7A;
+	}
+	.outline-grey:hover{
+		background-color: #546E7A;
+		color: #fff;
+		border:1px solid #546E7A;
+	}
+
+	/*Black Button*/
+	.outline-black{
+		background-color: #fff;
+		color: #242526;
+		border:1px solid #343536;
+	}
+	.outline-black:hover{
+		background-color: #242526;
+		color: #fff;
+		border:1px solid #343536;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<button type="button" class="btn outline-blue">Primary</button>
+	<button type="button" class="btn outline-green">Success</button>
+	<button type="button" class="btn outline-red">Danger</button>
+	<button type="button" class="btn outline-grey">Secondary</button>
+	<button type="button" class="btn outline-black">Dark</button>
+
+</body>
+</html>
